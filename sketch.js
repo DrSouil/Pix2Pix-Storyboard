@@ -21,7 +21,7 @@ function setup() {
   inputCanvas.class('border-box').parent('canvasContainer');
 
   // Display initial input image
-  inputImg = loadImage('images/input.png', drawImage);
+  inputImg = loadImage('images/input2.png', drawImage);
 
   // Selcect output div container
   outputContainer = select('#output');
