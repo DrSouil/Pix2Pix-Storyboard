@@ -21,7 +21,7 @@ function setup() {
   inputCanvas.class('border-box').parent('canvasContainer');
 
   // Display initial input image
-  inputImg = loadImage('images/input2.png', drawImage);
+  inputImg = loadImage('images/input.png', drawImage);
 
   // Selcect output div container
   outputContainer = select('#output');
@@ -38,7 +38,8 @@ function setup() {
   });
 
   // Set stroke to black
-  stroke(0);
+  background(0);
+  stroke(255);
   pixelDensity(1);
 }
 
@@ -71,7 +72,7 @@ function drawImage() {
 
 // Clear the canvas
 function clearCanvas() {
-  background(255);
+  background(0);
 }
 
 function transfer(pix2pix) {
